@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Prompt&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.card .img-wrap{
+    height: 250px;
+    padding: .5rem;
+    display: block;
+    text-align: center;
+}
+.card img{
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+.checked{
+    color: orange;
+}
+.title{
+    text-decoration: none;
+    color: #212529;
+}
+.price{
+    color: orange;
+    font-size: 22px;
+}
+.rating{
+    font-size: 13px;
+}
+@media (max-width:768px){
+    .card .img-wrap{
+        border-bottom: 1px solid #dee2e6;
+    }
+}

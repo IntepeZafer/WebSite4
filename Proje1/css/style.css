@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: brown;
+    padding: 0.1rem;
+    display: flex;
+    flex-flow: row wrap;
+    height: auto
+}
+.item{
+    background-color: aqua;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.6rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.box{
+    flex-grow: 50;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.item-5{
+    flex-grow: 2;
+}

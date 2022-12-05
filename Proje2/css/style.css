@@ -1,0 +1,30 @@
+.container{
+    width: 100%;
+    height: auto;
+}
+.card{
+    width: 20vw;
+    height: auto;
+}
+img{
+    width: 20vw;
+    height: auto;
+}
+.card-title{
+    text-align: justify;
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.card > img{
+    border-radius: 1rem;
+}
+.card-title{
+    border: 1px solid black;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
