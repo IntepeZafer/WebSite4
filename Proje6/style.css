@@ -2,7 +2,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-.card .img-wrap{
+.product-card .img-wrap{
     height: 250px;
     padding: .5rem;
     display: block;

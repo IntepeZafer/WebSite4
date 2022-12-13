@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="card">
+                    <div class="filter-box">
+                        <header class="card-header">
+                            <a href="#" data-bs-toggle="collapse" data-bs-target="#collapse_box1">
+                                <i class="fa fa-chevron-down"></i> Marka
+                            </a>
+                        </header>
+                        <div class="collapse show" id="collapse_box1">
+                            <div class="card-body">
+                                <ul class="menu scroll">
+                                    <li><a href="#">Lenova</a></li>
+                                    <li><a href="#">Asus</a></li>
+                                    <li><a href="#">Casper</a></li>
+                                    <li><a href="#">Hp</a></li>
+                                    <li><a href="#">Acer</a></li>
+                                    <li><a href="#">Monster</a></li>
+                                    <li><a href="#">Dell</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-box">
+                        <header class="card-header">
+                            <a href="#" data-bs-toggle="collapse" data-bs-target="#collapse_box2">
+                                <i class="fa fa-chevron-down"></i> Fiyat
+                            </a>
+                        </header>
+                        <div class="collapse show" id="collapse_box2">
+                            <div class="card-body">
+                                <div class="row mb-3">
+                                    <div class="col-6">
+                                        <label for="" class="form-label">En Az</label>
+                                        <input type="number" class="form-control" placeholder="5.000TL">
+                                    </div>
+                                    <div class="col-6">
+                                        <label for="" class="form-label">En Çok</label>
+                                        <input type="number" class="form-control" placeholder="10.000TL">
+                                    </div>
+                                    <button class="btn btn-primary mt-3 w-100">Uygula</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-box">
+                        <header class="card-header">
+                            <a href="#" data-bs-toggle="collapse" data-bs-target="#collapse_box3">
+                                <i class="fa fa-chevron-down"></i> Ekran Boyutu
+                            </a>
+                        </header>
+                        <div class="collapse show" id="collapse_box3">
+                            <div class="card-body">
+                                <input type="checkbox">
+                                <label for="" class="checkbox-btn"><span class="btn btn-light">13.3 inç</span></label>
+                                <label for="" class="checkbox-btn"><span class="btn btn-light">14.3 inç</span></label>
+                                <label for="" class="checkbox-btn"><span class="btn btn-light">15.3 inç</span></label>
+                                <label for="" class="checkbox-btn"><span class="btn btn-light">16.3 inç</span></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-box">
+                        <header class="card-header">
+                            <a href="#" data-bs-toggle="collapse" data-bs-target="#collapse_box4">
+                                <i class="fa fa-chevron-down"></i> Ram Kapasitesi
+                            </a>
+                        </header>
+                        <div class="collapse show" id="collapse_box4">
+                            <div class="card-body text-center">
+                                <label for="" class="form-check-check mb-2 me-2">
+                                    <input type="checkbox" class="form-checkd-input">
+                                    <span class="form-check-label">8 GB</span>
+                                </label>
+                                <label for="" class="form-check-check mb-2 me-2">
+                                    <input type="checkbox" class="form-checkd-input">
+                                    <span class="form-check-label">16 GB</span>
+                                </label>
+                                <label for="" class="form-check-check mb-2 me-2">
+                                    <input type="checkbox" class="form-checkd-input">
+                                    <span class="form-check-label">32 GB</span>
+                                </label>
+                                <label for="" class="form-check-check mb-2 me-2">
+                                    <input type="checkbox" class="form-checkd-input">
+                                    <span class="form-check-label">64 GB</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-box">
+                        <header class="card-header">
+                            <a href="#" data-bs-toggle="collapse" data-bs-target="#collapse_box5">
+                                <i class="fa fa-chevron-down"></i> Ürün Modeli
+                            </a>
+                        </header>
+                        <div class="collapse show" id="collapse_box5">
+                            <div class="card-body text-center">
+                                <label for="" class="form-check-check mb-2 me-2">
+                                    <input type="radio" class="form-checkd-input" name="model">
+                                    <span class="form-check-label">Notebook</span>
+                                </label>
+                                <label for="" class="form-check-check mb-2 me-2">
+                                    <input type="radio" class="form-checkd-input" name="model">
+                                    <span class="form-check-label">Ultrabook</span>
+                                </label>
+                                <label for="" class="form-check-check mb-2 me-2">
+                                    <input type="radio" class="form-checkd-input" name="model">
+                                    <span class="form-check-label">Masasüstü</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+
+
+
+
+
+
+    <script src="../asset/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

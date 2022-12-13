@@ -1,0 +1,17 @@
+{
+  "name": "proje10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --watch scss/ -o css/ --output-style"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "fslightbox": "^3.3.1",
+    "node-sass": "^8.0.0"
+  }
+}
